@@ -1,0 +1,1151 @@
+*******Update_Participants_Graph**********2013-01-15 18:06:01.574084*****************
+154
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 169, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 30, in check_in
+    api=Auth.get_authentication(screen_name=my_screen,param=param)
+NameError: global name 'my_screen' is not defined
+*******Update_Participants_Graph**********2013-01-15 18:11:01.943983*****************
+154
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+154
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 169, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 31, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 46, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 72, in manage_graph
+    status=manage_followers(api=api,participant=participant,followers=followers,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 121, in manage_followers
+    users=ret['users']
+KeyError: 'users'
+*******Update_Participants_Graph**********2013-01-16 10:20:01.769885*****************
+154
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 169, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 31, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 46, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 72, in manage_graph
+    status=manage_followers(api=api,participant=participant,followers=followers,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 121, in manage_followers
+    users=ret['users']
+KeyError: 'users'
+*******Update_Participants_Graph**********2013-01-16 12:20:01.254091*****************
+154
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 169, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 31, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 46, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 66, in manage_graph
+    status=manage_friends(api=api,participant=participant,friends=friends,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 86, in manage_friends
+    ret=api.GetFriends(user=participant,cursor=cursor)
+  File "/usr/lib/python2.7/twitter.py", line 3003, in GetFriends
+    json = self._FetchUrl(url, parameters=parameters)
+  File "/usr/lib/python2.7/twitter.py", line 3879, in _FetchUrl
+    self._cache.Set(key, url_data)
+  File "/usr/lib/python2.7/twitter.py", line 3915, in Set
+    temp_fp.write(data)
+IOError: [Errno 28] No space left on device
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 87
+    except Exception ex:
+                      ^
+SyntaxError: invalid syntax
+Terminated
+*******Update_Participants_Graph**********2013-01-17 12:53:02.343198*****************
+CoxA59
+go!!! 18137777
+18137777 is done!
+go!!! 93241327
+93241327 is done!
+go!!! 306760743
+306760743 is done!
+go!!! 350024954
+350024954 is done!
+go!!! 912801834
+912801834 is done!
+go!!! 288432566
+288432566 is done!
+go!!! 15110769
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+mana_macaron
+go!!! 54247592
+54247592 is done!
+go!!! 15110769
+15110769 is done!
+go!!! 44610616
+44610616 is done!
+go!!! 16271468
+16271468 is done!
+go!!! 16946986
+16946986 is done!
+go!!! 19319335
+19319335 is done!
+go!!! 32749027
+32749027 is done!
+go!!! 322583962
+322583962 is done!
+go!!! 237820919
+237820919 is done!
+go!!! 124561518
+124561518 is done!
+go!!! 312915562
+312915562 is done!
+go!!! 239418461
+239418461 is done!
+go!!! 69965341
+69965341 is done!
+go!!! 965996816
+965996816 is done!
+go!!! 49344076
+49344076 is done!
+go!!! 299556521
+299556521 is done!
+go!!! 117177026
+117177026 is done!
+go!!! 253278096
+253278096 is done!
+go!!! 149099846
+149099846 is done!
+go!!! 791920926
+791920926 is done!
+go!!! 115737046
+115737046 is done!
+go!!! 29512013
+29512013 is done!
+go!!! 75971241
+75971241 is done!
+go!!! 16042052
+16042052 is done!
+go!!! 897433675
+897433675 is done!
+go!!! 396544365
+396544365 is done!
+go!!! 469181734
+469181734 is done!
+go!!! 23742414
+23742414 is done!
+go!!! 455257317
+455257317 is done!
+go!!! 273224125
+273224125 is done!
+go!!! 43973475
+43973475 is done!
+go!!! 402140734
+402140734 is done!
+go!!! 451695454
+451695454 is done!
+go!!! 17615176
+17615176 is done!
+go!!! 94551214
+94551214 is done!
+go!!! 44246112
+44246112 is done!
+go!!! 989091499
+989091499 is done!
+go!!! 471835361
+471835361 is done!
+go!!! 15862449
+15862449 is done!
+go!!! 978787615
+978787615 is done!
+go!!! 49971218
+49971218 is done!
+go!!! 851760312
+851760312 is done!
+go!!! 632579256
+632579256 is done!
+go!!! 29706210
+29706210 is done!
+go!!! 227728379
+227728379 is done!
+go!!! 354231008
+354231008 is done!
+go!!! 191595951
+191595951 is done!
+go!!! 358295318
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 228, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 32, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 94, in manage_graph
+    status=manage_followers(api=api,participant=participant,followers=followers,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 169, in manage_followers
+    recored_users_batch(users=dict_users)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 220, in recored_users_batch
+    data=cpik.loads(handle.read())
+EOFError
+*******Update_Participants_Graph**********2013-01-17 16:53:01.752917*****************
+CoxA59
+go!!! 212668133
+212668133 is done!
+go!!! 968535374
+968535374 is done!
+go!!! 108883403
+108883403 is done!
+go!!! 621462822
+621462822 is done!
+go!!! 29706210
+29706210 is done!
+go!!! 987380168
+987380168 is done!
+go!!! 354231008
+354231008 is done!
+go!!! 440859028
+440859028 is done!
+go!!! 12975682
+12975682 is done!
+go!!! 14461391
+14461391 is done!
+go!!! 863490968
+863490968 is done!
+go!!! 2970621
+2970621 is done!
+go!!! 237031657
+237031657 is done!
+go!!! 88095056
+88095056 is done!
+go!!! 15013860
+15013860 is done!
+go!!! 14948021
+14948021 is done!
+go!!! 707656484
+707656484 is done!
+go!!! 784919833
+784919833 is done!
+go!!! 11303782
+11303782 is done!
+go!!! 83662742
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 228, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 32, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 88, in manage_graph
+    status=manage_friends(api=api,participant=participant,friends=friends,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 135, in manage_friends
+    recored_users_batch(users=dict_users)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 220, in recored_users_batch
+    data=cpik.loads(handle.read())
+EOFError
+*******Update_Participants_Graph**********2013-01-18 04:53:03.685849*****************
+CoxA59
+go!!! 175065144
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 228, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 32, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 61, in recored_participants_graphs
+    except twitter.TwitterError, ex:
+NameError: global name 'twitter' is not defined
+*******Update_Participants_Graph**********2013-01-18 00:53:01.932060*****************
+CoxA59
+go!!! 34978848
+34978848 is done!
+go!!! 121946306
+121946306 is done!
+go!!! 159144232
+159144232 is done!
+go!!! 88540151
+88540151 is done!
+go!!! 1002327584
+1002327584 is done!
+go!!! 984686887
+984686887 is done!
+go!!! 325552720
+325552720 is done!
+go!!! 37335518
+37335518 is done!
+go!!! 59180252
+59180252 is done!
+go!!! 567365403
+567365403 is done!
+go!!! 169700134
+169700134 is done!
+go!!! 771499328
+Not authorized
+go!!! 920636778
+920636778 is done!
+go!!! 615126132
+615126132 is done!
+go!!! 136361140
+136361140 is done!
+go!!! 817500956
+817500956 is done!
+go!!! 247049916
+247049916 is done!
+go!!! 175065144
+175065144 is done!
+go!!! 59813847
+59813847 is done!
+go!!! 38231044
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 228, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 32, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 88, in manage_graph
+    status=manage_friends(api=api,participant=participant,friends=friends,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 135, in manage_friends
+    recored_users_batch(users=dict_users)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 220, in recored_users_batch
+    data=cpik.loads(handle.read())
+EOFError
+*******Update_Participants_Graph**********2013-01-17 20:53:01.252948*****************
+CoxA59
+go!!! 119832873
+119832873 is done!
+go!!! 453139496
+453139496 is done!
+go!!! 493475014
+Not authorized
+go!!! 415538609
+415538609 is done!
+go!!! 92563078
+92563078 is done!
+go!!! 360552114
+360552114 is done!
+go!!! 237452563
+Not authorized
+go!!! 28927028
+28927028 is done!
+go!!! 23815854
+23815854 is done!
+go!!! 49583073
+49583073 is done!
+go!!! 358295318
+358295318 is done!
+go!!! 17398511
+17398511 is done!
+go!!! 83662742
+83662742 is done!
+go!!! 121946306
+121946306users
+go!!! 159144232
+159144232users
+go!!! 812909306
+812909306 is done!
+go!!! 88540151
+88540151 is done!
+go!!! 1002327584
+1002327584 is done!
+go!!! 984686887
+984686887 is done!
+go!!! 325552720
+325552720 is done!
+go!!! 37335518
+37335518 is done!
+go!!! 59180252
+59180252 is done!
+go!!! 567365403
+567365403 is done!
+go!!! 169700134
+169700134 is done!
+go!!! 34978848
+34978848 is done!
+go!!! 771499328
+Not authorized
+go!!! 920636778
+920636778 is done!
+go!!! 615126132
+615126132 is done!
+go!!! 817500956
+817500956 is done!
+go!!! 136361140
+136361140 is done!
+go!!! 247049916
+247049916 is done!
+go!!! 175065144
+175065144 is done!
+go!!! 59813847
+59813847 is done!
+go!!! 38231044
+38231044 is done!
+go!!! 315566209
+315566209 is done!
+go!!! 770043577
+Not authorized
+go!!! 886847096
+886847096 is done!
+go!!! 762546128
+762546128 is done!
+go!!! 991268252
+991268252 is done!
+go!!! 400094212
+400094212 is done!
+go!!! 1003078585
+1003078585 is done!
+go!!! 214540798
+214540798 is done!
+mana_macaron
+data1_surgeon
+mehdy_h59
+***************** END *****************
+*******Update_Participants_Graph**********2013-01-18 08:53:01.306704*****************
+CoxA59
+mana_macaron
+data1_surgeon
+mehdy_h59
+***************** END *****************
+*******Update_Participants_Graph**********2013-01-18 12:53:03.782921*****************
+CoxA59
+successfully finittto! beginning next round!
+mana_macaron
+go!!! 19194450
+19194450 is done!
+go!!! 57048083
+57048083 is done!
+go!!! 46089328
+46089328 is done!
+go!!! 581889568
+581889568 is done!
+go!!! 218742080
+218742080 is done!
+go!!! 99390322
+99390322 is done!
+go!!! 101949871
+101949871 is done!
+go!!! 16205041
+16205041 is done!
+go!!! 399351032
+399351032 is done!
+go!!! 277426268
+277426268 is done!
+go!!! 18137777
+Traceback (most recent call last):
+*******Update_Participants_Graph**********2013-01-18 16:53:03.727274*****************
+CoxA59
+go!!! 972038743
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 231, in <module>
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 231, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 35, in check_in
+        status=recored_participants_graphs(api=api,participants=participants)
+check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 35, in check_in
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 67, in recored_participants_graphs
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 67, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 97, in manage_graph
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 91, in manage_graph
+    status=manage_followers(api=api,participant=participant,followers=followers,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 172, in manage_followers
+        recored_users_batch(users=dict_users)
+status=manage_friends(api=api,participant=participant,friends=friends,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 138, in manage_friends
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 223, in recored_users_batch
+        data=cpik.loads(handle.read())
+recored_users_batch(users=dict_users)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 223, in recored_users_batch
+TypeError: 'str' object does not support item assignment
+    data=cpik.loads(handle.read())
+TypeError: 'str' object does not support item assignment
+*******Update_Participants_Graph**********2013-01-18 20:53:01.495768*****************
+CoxA59
+go!!! 972038743
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 231, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 35, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    except twitter.TwitterError, ex:
+NameError: global name 'twitter' is not defined
+*******Update_Participants_Graph**********2013-01-19 00:53:01.389320*****************
+CoxA59
+go!!! 972038743
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 231, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 35, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    except twitter.TwitterError, ex:
+NameError: global name 'twitter' is not defined
+*******Update_Participants_Graph**********2013-01-19 04:53:01.961591*****************
+CoxA59
+go!!! 972038743
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 231, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 35, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    except twitter.TwitterError, ex:
+NameError: global name 'twitter' is not defined
+*******Update_Participants_Graph**********2013-01-19 08:53:01.339392*****************
+CoxA59
+go!!! 972038743
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 231, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 35, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    except twitter.TwitterError, ex:
+NameError: global name 'twitter' is not defined
+*******Update_Participants_Graph**********2013-01-22 12:53:02.226122*****************
+CoxA59
+go!!! 972038743
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 231, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 35, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    except twitter.TwitterError, ex:
+NameError: global name 'twitter' is not defined
+*******Update_Participants_Graph**********2013-01-22 12:57:01.592230*****************
+CoxA59
+go!!! 972038743
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 232, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 36, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    recored_users_single(user=usr,ID=participant)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 215, in recored_users_single
+    data=cpik.loads(handle.read())
+TypeError: 'str' object does not support item assignment
+Terminated
+*******Update_Participants_Graph**********2013-01-22 14:55:01.546286*****************
+CoxA59
+go!!! 212668133
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 232, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 36, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 64, in recored_participants_graphs
+    recored_users_single(user=usr,ID=participant)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 215, in recored_users_single
+    data=cpik.loads(handle.read())
+cPickle.UnpicklingError: pickle data was truncated
+*******Update_Participants_Graph**********2013-01-22 16:41:03.562580*****************
+CoxA59
+go!!! 405012216
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 232, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 36, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 68, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 92, in manage_graph
+    status=manage_friends(api=api,participant=participant,friends=friends,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 139, in manage_friends
+    recored_users_batch(users=dict_users)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 224, in recored_users_batch
+    data=cpik.loads(handle.read())
+TypeError: 'unicode' object does not support item assignment
+*******Update_Participants_Graph**********2013-01-22 15:41:01.508379*****************
+CoxA59
+go!!! 212668133
+212668133 is done!
+go!!! 968535374
+968535374 is done!
+go!!! 84856965
+84856965 is done!
+go!!! 987380168
+987380168 is done!
+go!!! 453139496
+Traceback (most recent call last):
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 232, in <module>
+    check_in()
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 36, in check_in
+    status=recored_participants_graphs(api=api,participants=participants)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 68, in recored_participants_graphs
+    status=manage_graph(api=api,participant=participant,file_path=out_path,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 98, in manage_graph
+    status=manage_followers(api=api,participant=participant,followers=followers,today=today)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 173, in manage_followers
+    recored_users_batch(users=dict_users)
+  File "/home/mh717/Research_Cambridge/SocialInfluence/Codes/Participants_Graph.py", line 224, in recored_users_batch
+    data=cpik.loads(handle.read())
+TypeError: 'unicode' object does not support item assignment
+*******Update_Participants_Graph**********2013-01-22 17:24:02.791892*****************
+CoxA59
+go!!! 791920926
+791920926 is done!
+go!!! 453139496
+453139496 is done!
+go!!! 100028984
+100028984 is done!
+go!!! 1002327584
+1002327584 is done!
+go!!! 14461391
+14461391 is done!
+go!!! 15110769
+15110769 is done!
+go!!! 863490968
+863490968 is done!
+go!!! 422879086
+422879086 is done!
+go!!! 415538609
+415538609 is done!
+go!!! 451695454
+451695454 is done!
+go!!! 18137777
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+mana_macaron
+go!!! 886847096
+886847096 is done!
+go!!! 2970621
+Capacity Error
+data1_surgeon
+go!!! 2970621
+2970621users
+go!!! 18137777
+18137777 is done!
+go!!! 237031657
+237031657 is done!
+go!!! 94551214
+94551214 is done!
+go!!! 315566209
+315566209 is done!
+go!!! 44246112
+44246112 is done!
+go!!! 989091499
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+mehdy_h59
+go!!! 2970621
+Capacity Error
+***************** END *****************
+*******Update_Participants_Graph**********2013-01-24 12:04:02.935131*****************
+CoxA59
+go!!! 2970621
+2970621 is done!
+go!!! 989091499
+989091499 is done!
+go!!! 471835361
+471835361 is done!
+go!!! 6708263
+6708263users
+go!!! 322583962
+322583962 is done!
+go!!! 15862449
+15862449 is done!
+go!!! 978787615
+978787615 is done!
+go!!! 118499019
+118499019 is done!
+go!!! 40724801
+40724801 is done!
+go!!! 71864932
+71864932 is done!
+go!!! 379182675
+379182675 is done!
+go!!! 28927028
+28927028 is done!
+go!!! 851760312
+851760312 is done!
+go!!! 312915562
+312915562 is done!
+go!!! 239418461
+239418461 is done!
+go!!! 227728379
+227728379 is done!
+go!!! 299556521
+299556521 is done!
+go!!! 349322419
+349322419 is done!
+go!!! 358295318
+go!!! 965996816
+go!!! 11303782
+go!!! 92563078
+go!!! 31083551
+go!!! 121946306
+go!!! 159144232
+go!!! 117177026
+go!!! 89779712
+go!!! 253278096
+go!!! 88540151
+go!!! 149099846
+go!!! 214540798
+go!!! 492593469
+go!!! 37335518
+go!!! 59180252
+go!!! 115737046
+go!!! 567365403
+go!!! 29512013
+go!!! 169700134
+go!!! 34978848
+go!!! 75971241
+go!!! 405012216
+go!!! 920636778
+go!!! 16042052
+go!!! 593984029
+go!!! 306760743
+go!!! 621462822
+go!!! 350024954
+go!!! 469181734
+go!!! 23742414
+go!!! 1919445
+go!!! 18299613
+go!!! 762546128
+go!!! 991268252
+go!!! 400094212
+go!!! 325552720
+go!!! 1003078585
+go!!! 784919833
+mana_macaron
+go!!! 6708263
+6708263users
+data1_surgeon
+go!!! 6708263
+6708263users
+mehdy_h59
+go!!! 6708263
+6708263users
+***************** END *****************
+*******Update_Participants_Graph**********2013-01-24 13:07:01.368373*****************
+CoxA59
+go!!! 6708263
+6708263users
+mana_macaron
+go!!! 6708263
+6708263users
+data1_surgeon
+go!!! 6708263
+6708263users
+mehdy_h59
+go!!! 6708263
+6708263users
+***************** END *****************
+*******Update_Participants_Graph**********2013-01-24 13:11:01.994485*****************
+CoxA59
+go!!! 67082630
+67082630 is done!
+mana_macaron
+successfully finittto! beginning next round!
+data1_surgeon
+go!!! 212668133
+212668133 is done!
+go!!! 968535374
+968535374 is done!
+go!!! 581889568
+581889568 is done!
+go!!! 218742080
+218742080 is done!
+go!!! 898839199
+898839199 is done!
+go!!! 14461391
+14461391 is done!
+go!!! 15110769
+15110769 is done!
+go!!! 101949871
+101949871 is done!
+go!!! 863490968
+863490968 is done!
+go!!! 422879086
+422879086 is done!
+go!!! 415538609
+415538609 is done!
+go!!! 451695454
+451695454 is done!
+go!!! 15862449
+15862449 is done!
+go!!! 94551214
+94551214 is done!
+go!!! 237031657
+237031657 is done!
+go!!! 44246112
+44246112 is done!
+go!!! 989091499
+989091499 is done!
+go!!! 57048083
+57048083 is done!
+go!!! 471835361
+471835361 is done!
+go!!! 972038743
+972038743 is done!
+go!!! 322583962
+322583962 is done!
+go!!! 18137777
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+mehdy_h59
+go!!! 987380168
+987380168 is done!
+go!!! 453139496
+453139496 is done!
+go!!! 2970621
+2970621 is done!
+go!!! 18137777
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+***************** END *****************
+*******Update_Participants_Graph**********2013-01-24 14:00:01.547575*****************
+CoxA59
+go!!! 123201468
+Not authorized
+go!!! 762546128
+762546128 is done!
+go!!! 621462822
+621462822 is done!
+go!!! 28927028
+28927028 is done!
+go!!! 1002327584
+1002327584 is done!
+go!!! 771499328
+Not authorized
+go!!! 88540151
+88540151 is done!
+go!!! 237452563
+Not authorized
+go!!! 349322419
+349322419 is done!
+go!!! 306760743
+306760743 is done!
+go!!! 15337554
+Not authorized
+go!!! 784919833
+784919833 is done!
+go!!! 18137777
+18137777 is done!
+go!!! 978787615
+978787615 is done!
+go!!! 118499019
+118499019 is done!
+go!!! 40724801
+40724801 is done!
+go!!! 71864932
+71864932 is done!
+go!!! 379182675
+379182675 is done!
+go!!! 593984029
+593984029 is done!
+go!!! 851760312
+851760312 is done!
+go!!! 312915562
+312915562 is done!
+go!!! 239418461
+239418461 is done!
+go!!! 227728379
+227728379 is done!
+go!!! 121946306
+121946306 is done!
+go!!! 1003739928
+1003739928 is done!
+go!!! 358295318
+358295318 is done!
+go!!! 965996816
+965996816 is done!
+go!!! 11303782
+11303782 is done!
+go!!! 92563078
+92563078 is done!
+go!!! 31083551
+31083551 is done!
+go!!! 299556521
+299556521 is done!
+go!!! 159144232
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+mana_macaron
+go!!! 493475014
+Not authorized
+go!!! 23742414
+23742414 is done!
+go!!! 791920926
+791920926 is done!
+go!!! 84856965
+84856965 is done!
+go!!! 159144232
+159144232 is done!
+go!!! 117177026
+117177026 is done!
+go!!! 89779712
+89779712 is done!
+go!!! 253278096
+253278096 is done!
+go!!! 405012216
+405012216 is done!
+go!!! 149099846
+149099846 is done!
+go!!! 492593469
+492593469 is done!
+go!!! 37335518
+37335518 is done!
+go!!! 59180252
+59180252 is done!
+go!!! 115737046
+115737046 is done!
+go!!! 567365403
+567365403 is done!
+go!!! 29512013
+29512013 is done!
+go!!! 169700134
+169700134 is done!
+go!!! 75971241
+75971241 is done!
+go!!! 34978848
+34978848 is done!
+go!!! 920636778
+920636778 is done!
+go!!! 16042052
+16042052 is done!
+go!!! 18299613
+18299613 is done!
+go!!! 100028984
+100028984 is done!
+go!!! 315566209
+315566209 is done!
+go!!! 350024954
+350024954 is done!
+go!!! 469181734
+469181734 is done!
+go!!! 770043577
+Not authorized
+go!!! 1919445
+1919445users
+go!!! 886847096
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+data1_surgeon
+go!!! 325552720
+325552720 is done!
+go!!! 1919445
+1919445users
+go!!! 886847096
+886847096 is done!
+go!!! 67082630
+67082630 is done!
+go!!! 991268252
+991268252 is done!
+go!!! 400094212
+400094212 is done!
+go!!! 1003078585
+1003078585 is done!
+go!!! 214540798
+214540798 is done!
+mehdy_h59
+go!!! 1919445
+1919445users
+***************** END *****************
+*******Update_Participants_Graph**********2013-01-24 14:50:02.147840*****************
+CoxA59
+go!!! 1919445
+ problem with 1919445 Rate limit exceeded. Clients may not make more than 350 requests per hour.
+mana_macaron
+successfully finittto! beginning next round!
+data1_surgeon
+go!!! 581889568
+581889568 is done!
+go!!! 218742080
+218742080 is done!
+go!!! 898839199
+898839199 is done!
+go!!! 101949871
+101949871 is done!
+go!!! 15337554
+Not authorized
+go!!! 18137777
+18137777 is done!
+go!!! 118499019
+118499019 is done!
+go!!! 40724801
+40724801 is done!
+go!!! 71864932
+71864932 is done!
+go!!! 379182675
+379182675 is done!
+go!!! 593984029
+593984029 is done!
+go!!! 349322419
+349322419 is done!
+go!!! 31083551
+31083551 is done!
+go!!! 89779712
+89779712 is done!
+go!!! 405012216
+405012216 is done!
+go!!! 492593469
+492593469 is done!
+go!!! 84856965
+84856965 is done!
+go!!! 18299613
+18299613 is done!
+go!!! 306760743
+306760743 is done!
+go!!! 350024954
+350024954 is done!
+go!!! 1919445
+1919445users
+go!!! 67082630
+67082630 is done!
+go!!! 15110769
+15110769 is done!
+go!!! 422879086
+422879086 is done!
+go!!! 415538609
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+mehdy_h59
+go!!! 212668133
+212668133 is done!
+go!!! 123201468
+Not authorized
+go!!! 968535374
+968535374 is done!
+go!!! 987380168
+987380168 is done!
+go!!! 453139496
+453139496 is done!
+go!!! 493475014
+Not authorized
+go!!! 14461391
+14461391 is done!
+go!!! 863490968
+863490968 is done!
+go!!! 23742414
+23742414 is done!
+go!!! 415538609
+415538609 is done!
+go!!! 451695454
+451695454 is done!
+go!!! 237031657
+237031657 is done!
+go!!! 94551214
+94551214 is done!
+go!!! 315566209
+315566209 is done!
+go!!! 44246112
+44246112 is done!
+go!!! 989091499
+989091499 is done!
+go!!! 57048083
+57048083 is done!
+go!!! 784919833
+784919833 is done!
+go!!! 972038743
+972038743 is done!
+go!!! 322583962
+322583962 is done!
+go!!! 15862449
+15862449 is done!
+go!!! 978787615
+978787615 is done!
+go!!! 237452563
+Not authorized
+go!!! 28927028
+28927028 is done!
+go!!! 851760312
+851760312 is done!
+go!!! 312915562
+312915562 is done!
+go!!! 239418461
+239418461 is done!
+go!!! 227728379
+227728379 is done!
+go!!! 299556521
+299556521 is done!
+go!!! 1003739928
+1003739928 is done!
+go!!! 358295318
+358295318 is done!
+go!!! 965996816
+965996816 is done!
+go!!! 11303782
+11303782 is done!
+go!!! 92563078
+92563078 is done!
+go!!! 121946306
+121946306 is done!
+go!!! 159144232
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+***************** END *****************
+*******Update_Participants_Graph**********2013-01-25 16:05:01.554420*****************
+CoxA59
+go!!! 991268252
+991268252 is done!
+go!!! 88540151
+88540151 is done!
+go!!! 471835361
+471835361 is done!
+go!!! 1002327584
+1002327584 is done!
+go!!! 34978848
+34978848 is done!
+go!!! 159144232
+159144232 is done!
+go!!! 117177026
+117177026 is done!
+go!!! 253278096
+253278096 is done!
+go!!! 621462822
+621462822 is done!
+go!!! 149099846
+149099846 is done!
+go!!! 791920926
+791920926 is done!
+go!!! 37335518
+37335518 is done!
+go!!! 59180252
+59180252 is done!
+go!!! 115737046
+115737046 is done!
+go!!! 567365403
+567365403 is done!
+go!!! 29512013
+29512013 is done!
+go!!! 169700134
+169700134 is done!
+go!!! 75971241
+75971241 is done!
+go!!! 771499328
+Not authorized
+go!!! 920636778
+920636778 is done!
+go!!! 16042052
+16042052 is done!
+go!!! 100028984
+100028984 is done!
+go!!! 469181734
+469181734 is done!
+go!!! 770043577
+Not authorized
+go!!! 1919445
+1919445users
+go!!! 886847096
+886847096 is done!
+go!!! 762546128
+762546128 is done!
+go!!! 2970621
+Rate limit exceeded. Clients may not make more than 350 requests per hour.
+mana_macaron
+go!!! 325552720
+325552720 is done!
+go!!! 1919445
+1919445users
+go!!! 2970621
+2970621 is done!
+go!!! 400094212
+400094212 is done!
+go!!! 1003078585
+1003078585 is done!
+go!!! 214540798
+214540798 is done!
+data1_surgeon
+go!!! 1919445
+1919445users
+mehdy_h59
+go!!! 1919445
+1919445users
+***************** END *****************
