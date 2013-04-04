@@ -9,7 +9,7 @@ import csv
 import datetime
 import twitter
 
-def stop_following_friends(api=None, max_removed=10,deadline=20,life_deadline=9000000,file_path='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/friends.txt'):
+def stop_following_friends(api=None, max_removed=10,deadline=20,life_deadline=9000000,file_path='/DataFiles/friends.txt'):
 #stop following people who are not following you back and given enough number of days (specified by deadline) 
     delta=datetime.timedelta(days=deadline)
 
@@ -43,7 +43,7 @@ def stop_following_friends(api=None, max_removed=10,deadline=20,life_deadline=90
     print str(c)+' were removed!'
 
 
-def return_followers(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/followers.txt"):
+def return_followers(file_path="/DataFiles/followers.txt"):
     followers={}
     #check if the followers file exists
     if os.path.exists(file_path):
@@ -52,7 +52,7 @@ def return_followers(file_path="/home/mh717/Research_Cambridge/SocialInfluence/C
     return followers
 
 
-def return_friends(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/friends.txt"):
+def return_friends(file_path="/Codes/DataFiles/friends.txt"):
     friends={}
     #check if the friends file exists
     if os.path.exists(file_path):
@@ -60,7 +60,7 @@ def return_friends(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Cod
             friends=cpik.loads(handle.read())
     return friends
 
-def return_participants(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/paricipants.txt"):
+def return_participants(file_path="/DataFiles/paricipants.txt"):
     participants=set()
     #check if the file exists
     if os.path.exists(file_path):
