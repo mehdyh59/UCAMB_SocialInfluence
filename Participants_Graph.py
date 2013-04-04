@@ -6,11 +6,11 @@ import numpy as np
 import random
 import twitter
 
-def check_in(in_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/sub_paricipants.txt",out_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/"):
-    screen_names=['mehdy_h59','data1_surgeon','mana_macaron','CoxA59']
+def check_in(in_path="/DataFiles/sub_paricipants.txt",out_path="/DataFiles/participants/"):
+    screen_names=['auth_user1','auth_user2']
     
-    checked_participants_file='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/checked.txt'
-    notauthorized_participants_file='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/notAuthorized.txt'
+    checked_participants_file='/DataFiles/participants/checked.txt'
+    notauthorized_participants_file='/DataFiles/participants/notAuthorized.txt'
 
     while len(screen_names)>0:
         screen_name=screen_names.pop()
