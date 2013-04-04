@@ -10,7 +10,7 @@ import datetime
 import twitter
 
 
-def updatefollowers(api=None,file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/followers.txt"):##a file for followers list, indicate the start date of following, and wether or not Direct message (invitation) has been sent
+def updatefollowers(api=None,file_path="/DataFiles/followers.txt"):##a file for followers list, indicate the start date of following, and wether or not Direct message (invitation) has been sent
        
     followers=return_followers(file_path);
     #read for new followers
@@ -28,7 +28,7 @@ def updatefollowers(api=None,file_path="/home/mh717/Research_Cambridge/SocialInf
     return followers
 
 
-def return_followers(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/followers.txt"):
+def return_followers(file_path="/DataFiles/followers.txt"):
     followers={}
     #check if the followers file exists
     if os.path.exists(file_path):
@@ -44,7 +44,7 @@ def write_var_in_file(followers={},file_path=None):
 
 if __name__=='__main__':
     print '********Update Followers*********'+str(datetime.date.today())+'*****************'     
-    my_screen="data1_surgeon"
+    my_screen="auth_user"
     api=Auth.get_authentication(my_screen)
     updatefollowers(api=api)
     print '***************** END *****************'
