@@ -10,7 +10,7 @@ import datetime
 import twitter
 
 
-def send_invitation(api=None,sample_size=30,file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/followers.txt",days=4):
+def send_invitation(api=None,sample_size=30,file_path="",days=4):
     orig_text="a 2 min Twitter survey run by researchers at ComputerLab Cambridge University. If interested, follow the link! "
     orig_url="www.cl.cam.ac.uk/~mh717/survey_Twitter/intro.html?esm="
     #read local followers
@@ -34,7 +34,7 @@ def send_invitation(api=None,sample_size=30,file_path="/home/mh717/Research_Camb
     update_invitation(sampled_followers,followers,file_path=file_path)
     print str(sample_size)+' people were invited!'
 
-def return_followers(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/followers.txt"):
+def return_followers(file_path=""):
     followers={}
     #check if the followers file exists
     if os.path.exists(file_path):
@@ -68,7 +68,7 @@ def get_non_invted_followers(followers={},deldate=None):
     #print non_inv_followers
     return non_inv_followers
 
-def return_participants(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/paricipants.txt"):
+def return_participants(file_path=""):
     participants=set()
     #check if the file exists
     if os.path.exists(file_path):
@@ -76,7 +76,7 @@ def return_participants(file_path="/home/mh717/Research_Cambridge/SocialInfluenc
             participants=cpik.loads(handle.read())
     return participants
 
-def update_invitation(sampled_followers={},followers={},file_path='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/followers.txt'):
+def update_invitation(sampled_followers={},followers={},file_path=""):
     for key,items in sampled_followers.iteritems():
         items[1]=1
         followers[key]=items
@@ -96,6 +96,6 @@ if __name__=='__main__':
     print '********Invitation*********'+str(datetime.datetime.today())+'*****************'  
     my_screen="data1_surgeon"
     api=Auth.get_authentication(my_screen)
-    send_invitation(api=api,sample_size=250,file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/followers.txt",days=3)
+    send_invitation(api=api,sample_size=250,file_path="/DataFiles/followers.txt",days=3)
     print '***************** END *****************'
 
