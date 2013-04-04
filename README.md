@@ -10,3 +10,24 @@ Auth.py:
 Twitter supports a few authentication methods and with a range of OAuth authentication styles. You are supposed to know which authentication method you need to use. To learn about Twitter authentication methods you should read on https://dev.twitter.com/docs/auth.  When choosing which authentication method to use you should understand the way that method will affect your users experience and the way you write your application. 
 To use authentication method you need to set your (i) consumer key (ii) consumer secret (iii) access token key and (iv)access token secret, in Auth.py.
 
+Invitations.py:
+This module samples a subset, say m (m is 250 by default), of followers of an authorized account, and send them an invitation message on Twitter to ask them to fill the questionnaire. The lenght of invitation message should no exceed the Twitter's limit which at the moment is 140 characters. This module samples the followers randomly. However, it also has the advantage to filter followers based on the date of following.
+
+
+Participants_Graph.py:
+This module regularly checks the graph associated with each participant, a twitter user who participated in our questionnaire, and record those links recntely added/removed from the graph, e.g. it monitors new followers and new followees of the participants as well as former followers/followees who are not any longer in relationship with the participant.
+
+Following.py:
+this module lets an authenticated user authomatically follows an individual or a group of individuals at the same time. A set of conditions, e.g. number of followers, number of tweets, number of followees etc, are also defined based on which individuals are followed.
+
+Stop_Following.py:
+this module lets an authenticated user authomatically stops following an individual or a group of users at the same time. Some conditions are defined based on which unfollowing function performs.
+
+stats.py:
+this module does some data analysis based on the data collected from participants. This module makes use of data collected by the questionnaire as well as data crawled in Twitter to compute various statistics and draw summary charts. This module uses matplotlib.py, will be introduced shortly, library for drawing plots.
+
+matplotlib.py:
+is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Further information is available on http://matplotlib.org/.
+
+
+
