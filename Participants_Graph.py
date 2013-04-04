@@ -56,7 +56,7 @@ def check_in(in_path="/DataFiles/sub_paricipants.txt",out_path="/DataFiles/parti
 ##            else:
 ##                continue
 
-def recored_participants_graphs(api=None,in_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/paricipants.txt",out_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/",participants=set(),checked_participants_file='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/checked.txt',NotAuthorized_participants_file='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/notAuthorized.txt'):
+def recored_participants_graphs(api=None,in_path="/DataFiles/paricipants.txt",out_path="/DataFiles/participants/",participants=set(),checked_participants_file='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/checked.txt',NotAuthorized_participants_file='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/notAuthorized.txt'):
     today=datetime.datetime.today()
     checked_partice=set()
     notAuthorized_partice=set()
@@ -86,7 +86,7 @@ def recored_participants_graphs(api=None,in_path="/home/mh717/Research_Cambridge
             #print str(participant)+" checked in!"        
     return 'succeed'
 
-def manage_graph(api=None,participant=None,file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/",today=None):
+def manage_graph(api=None,participant=None,file_path="/DataFiles/participants/",today=None):
     if participant==None:
         return 'succeed'
     friends_file=file_path+'friends_'+str(participant)
@@ -183,7 +183,7 @@ def manage_followers(api=None,participant=None,followers={},today=None):
     return followers
 
 
-def _update_checked_participants(new_checked=set(),checked_participants_file='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/participants/checked.txt'):
+def _update_checked_participants(new_checked=set(),checked_participants_file='/DataFiles/participants/checked.txt'):
     old_checked=set()
     if os.path.exists(checked_participants_file):
         with open(checked_participants_file,'rb') as handle:
@@ -204,7 +204,7 @@ def _write_data(file_path=None,data=None):
     with open(file_path,'wb') as handle:
         cpik.dump(data,handle)
 
-def return_participants(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/paricipants.txt"):
+def return_participants(file_path="/DataFiles/paricipants.txt"):
     participants=set()
     #check if the file exists
     if os.path.exists(file_path):
@@ -212,7 +212,7 @@ def return_participants(file_path="/home/mh717/Research_Cambridge/SocialInfluenc
             participants=cpik.loads(handle.read())
     return participants
 
-def recored_users_single(user={},ID=None,users_path='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/Users/usersDB'):
+def recored_users_single(user={},ID=None,users_path='/DataFiles/Users/usersDB'):
     data={}
     if os.path.exists (users_path):
         with open(users_path,'rb') as handle:
@@ -221,7 +221,7 @@ def recored_users_single(user={},ID=None,users_path='/home/mh717/Research_Cambri
     with open(users_path,'wb') as handle:
         cpik.dump(data,handle)
 
-def recored_users_batch(users={},users_path='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/Users/usersDB'):
+def recored_users_batch(users={},users_path='/DataFiles/Users/usersDB'):
     data={}
     if os.path.exists (users_path):
         with open(users_path,'rb') as handle:
