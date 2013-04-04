@@ -11,17 +11,17 @@ Twitter supports a few authentication methods and with a range of OAuth authenti
 To use authentication method you need to set your (i) consumer key (ii) consumer secret (iii) access token key and (iv)access token secret, in Auth.py.
 
 Invitations.py:
-This module samples a subset, say m (m is 250 by default), of followers of an authorized account, and send them an invitation message on Twitter to ask them to fill the questionnaire. The lenght of invitation message should no exceed the Twitter's limit which at the moment is 140 characters. This module samples the followers randomly. However, it also has the advantage to filter followers based on the date of following.
+This module samples a subset, say m (m is 250 by default), of followers of an authorized account, and send them an invitation message on Twitter to ask them to fill the questionnaire. The length of invitation message should no exceed the Twitter's limit which at the moment is 140 characters. This module samples the followers randomly. However, it also has the advantage to filter followers based on the date of following.
 
 
 Participants_Graph.py:
-This module regularly checks the graph associated with each participant, a twitter user who participated in our questionnaire, and record those links recntely added/removed from the graph, e.g. it monitors new followers and new followees of the participant as well as former followers/followees who are not any longer in relationship with the participant.
+This module regularly checks the graph associated with each participant, a twitter user who participated in our questionnaire, and record those links recently added/removed from the graph, e.g. it monitors new followers and new followees of the participant as well as former followers/followees who are not any longer in relationship with the participant.
 
 Following.py:
-this module lets an authenticated user authomatically follows an individual or a group of individuals at the same time. A set of conditions, e.g. number of followers, number of tweets, number of followees etc, are also defined based on which individuals are followed.
+this module lets an authenticated user automatically follows an individual or a group of individuals at the same time. A set of conditions, e.g. number of followers, number of tweets, number of followees etc, are also defined based on which individuals are followed.
 
 Stop_Following.py:
-this module lets an authenticated user authomatically stops following an individual or a group of users at the same time. Some conditions are defined based on which unfollowing function performs.
+this module lets an authenticated user automatically stops following an individual or a group of users at the same time. Some conditions are defined based on which unfollowing function performs.
 
 stats.py:
 this module does some data analysis based on the data collected from participants. This module makes use of data collected by the questionnaire as well as data crawled in Twitter to compute various statistics and draw summary charts. This module uses matplotlib.py, will be introduced shortly, library for drawing plots.
@@ -30,10 +30,10 @@ matplotlib.py:
 is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Further information is available on http://matplotlib.org/.
 
  update_followers.py:
- The list of followers of a particular participant may vary time to time. This module is used to regularly update the list of followers of a particular particpants. 
+ The list of followers of a particular participant may vary time to time. This module is used to regularly update the list of followers of a particular participants. 
  
  update_friends.py:
- The list of friends of a particular participant may vary time to time. This module is used to regularly update the list of friends of a particular particpants. 
+ The list of friends of a particular participant may vary time to time. This module is used to regularly update the list of friends of a particular participants. 
  
  
  
@@ -41,5 +41,4 @@ is a python 2D plotting library which produces publication quality figures in a 
  
  
  
-
 
