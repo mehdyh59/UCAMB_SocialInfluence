@@ -10,7 +10,7 @@ import datetime
 import twitter
 
 
-def updatefriends(api=None,file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/friends.txt"):##a file for friends list, indicate the start date of following the friend, and wether or not the friend is removed from the friend list: 0 means not removed yet and 1 means removed
+def updatefriends(api=None,file_path="/DataFiles/friends.txt"):##a file for friends list, indicate the start date of following the friend, and wether or not the friend is removed from the friend list: 0 means not removed yet and 1 means removed
     friends=return_friends(file_path)
     #read for new friends
     cursor = -1
@@ -27,7 +27,7 @@ def updatefriends(api=None,file_path="/home/mh717/Research_Cambridge/SocialInflu
     write_var_in_file(friends,file_path)
     return friends
 
-def return_friends(file_path="/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/friends.txt"):
+def return_friends(file_path="/DataFiles/friends.txt"):
     friends={}
     #check if the friends file exists
     if os.path.exists(file_path):
@@ -42,7 +42,7 @@ def write_var_in_file(followers={},file_path=None):
 
 if __name__=='__main__':
     print '********Update Friends*********'+str(datetime.date.today())+'*****************'        
-    my_screen="data1_surgeon"
+    my_screen="auth_user"
     api=Auth.get_authentication(my_screen)
     updatefriends(api=api)
     print '***************** END *****************'
