@@ -29,5 +29,17 @@ this module does some data analysis based on the data collected from participant
 matplotlib.py:
 is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Further information is available on http://matplotlib.org/.
 
+ update_followers.py:
+ The list of followers of a particular participant may vary time to time. This module is used to regularly update the list of followers of a particular particpants. 
+ 
+ update_friends.py:
+ The list of friends of a particular participant may vary time to time. This module is used to regularly update the list of friends of a particular particpants. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
