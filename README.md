@@ -17,6 +17,12 @@ This module samples a subset, say m (m is 250 by default), of followers of an au
 Participants_Graph.py:
 This module regularly checks the graph associated with each participant, a twitter user who participated in our questionnaire, and record those links recently added/removed from the graph, e.g. it monitors new followers and new followees of the participant as well as former followers/followees who are not any longer in relationship with the participant. The output of this module can be used to represent the dynamic of the participants graph.
 
+update_friends.py:
+The list of friends of a particular participant may vary time to time. This module is used to regularly monitor the list of current friends of a particular participants and record the fresh list of friends on a local disk.  This module is used by Participants_Graph.py.
+  
+update_followers.py:
+The list of followers of a particular participant may vary time to time. This module is used to regularly monitor the list of current followers of a particular participants and record the on a local disk. This module is used by Participants_Graph.py. 
+ 
 Following.py:
 this module lets an authenticated user automatically follows an individual or a group of individuals at the same time. A set of conditions, e.g. number of followers, number of tweets, number of followees etc, are also defined based on which individuals are followed. For instance, it can sample from thoes followers who started to follow a user after 20th Feb 2013.
 
@@ -29,16 +35,4 @@ this module does some data analysis based on the data collected from participant
 matplotlib.py:
 is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Further information is available on http://matplotlib.org/.
 
- update_followers.py:
- The list of followers of a particular participant may vary time to time. This module is used to regularly update the list of followers of a particular participants. 
- 
- update_friends.py:
- The list of friends of a particular participant may vary time to time. This module is used to regularly update the list of friends of a particular participants. 
- 
- 
- 
- 
- 
- 
- 
 
