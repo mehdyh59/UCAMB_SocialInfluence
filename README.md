@@ -18,7 +18,7 @@ Participants_Graph.py:
 This module regularly checks the graph associated with each participant, a twitter user who participated in our questionnaire, and record those links recently added/removed from the graph, e.g. it monitors new followers and new followees of the participant as well as former followers/followees who are not any longer in relationship with the participant.
 
 Following.py:
-this module lets an authenticated user automatically follows an individual or a group of individuals at the same time. A set of conditions, e.g. number of followers, number of tweets, number of followees etc, are also defined based on which individuals are followed.
+this module lets an authenticated user automatically follows an individual or a group of individuals at the same time. A set of conditions, e.g. number of followers, number of tweets, number of followees etc, are also defined based on which individuals are followed. For instance, it can sample from thoes followers who started to follow a user after 20th Feb 2013.
 
 Stop_Following.py:
 this module lets an authenticated user automatically stops following an individual or a group of users at the same time. Some conditions are defined based on which unfollowing function performs.
