@@ -50,8 +50,8 @@ A comprehensive HTTP client library that supports many features left out of othe
 oauth2:
 a python wrapper around OAuth 2.0. Read the details on https://github.com/simplegeo/python-oauth2.  OAuth 2.0 is the next evolution of the OAuth protocol. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification is being developed within the IETF OAuth WG and is based on the OAuth WRAP proposal. 
 
-matplotlib.py:
+matplotlib:
 is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Further information is available on http://matplotlib.org/.
 
-nltk.py:
+nltk:
 NLTK is a python library for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning. You can read more on http://nltk.org/.
