@@ -21,7 +21,7 @@ Following.py:
 this module lets an authenticated user automatically follows an individual or a group of individuals at the same time. A set of conditions, e.g. number of followers, number of tweets, number of followees etc, are also defined based on which individuals are followed. For instance, it can sample from thoes followers who started to follow a user after 20th Feb 2013.
 
 Stop_Following.py:
-this module lets an authenticated user automatically stop following an individual or a group of users at the same time. Some conditions are defined based on which unfollowing function performs.
+this module lets an authenticated user automatically stop following an individual or a group of users at the same time. Some conditions are defined based on which unfollowing function performs. For instance, you can stop following those users who have not been an active user for a long time. The activity is defined based on the number of following/followed as well as tweetings/re-tweeting actions.
 
 stats.py:
 this module does some data analysis based on the data collected from participants. This module makes use of data collected by the questionnaire as well as data crawled in Twitter to compute various statistics and draw summary charts. This module uses matplotlib.py, will be introduced shortly, library for drawing plots.
