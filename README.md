@@ -37,8 +37,18 @@ this module does some data analysis based on the data collected from participant
 
 Libraries:
 
-twitter.py:
+twitter:
 A Python wrapper around the Twitter API. This module provides a pure Python interface for the Twitter API. Twitter exposes a web service API (http://dev.twitter.com/doc) and this module is intended to make it even easier for Python programmers to use. Further information about this module is available on https://code.google.com/p/python-twitter/.
+
+simplejson 3.1.2:
+simplejson is a simple, fast, complete, correct and extensible JSON <http://json.org> encoder and decoder for Python 2.5+ and Python 3.3+. It is pure Python code with no dependencies, but includes an optional C extension for a serious speed boost. Read more on https://pypi.python.org/pypi/simplejson.
+
+Httplib2:
+A comprehensive HTTP client library that supports many features left out of other HTTP libraries for python. Read more on https://code.google.com/p/httplib2/.
+
+
+oauth2:
+a python wrapper around OAuth 2.0. Read the details on https://github.com/simplegeo/python-oauth2.  OAuth 2.0 is the next evolution of the OAuth protocol. OAuth 2.0 focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. This specification is being developed within the IETF OAuth WG and is based on the OAuth WRAP proposal. 
 
 matplotlib.py:
 is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Further information is available on http://matplotlib.org/.
