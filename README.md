@@ -6,6 +6,7 @@ One of the main tasks of UCAMB in the Recognition project is to understand decis
 
 
 Modules:
+
 Auth.py:
 Twitter supports a few authentication methods with a range of OAuth authentication styles. You are supposed to know which authentication method you need to use. To learn about Twitter authentication methods you should read on https://dev.twitter.com/docs/auth.  When choosing which authentication method to use you should understand the way that method will affect your users experience and the way you write your application. 
 To use authentication methods you need to set your (i) consumer key (ii) consumer secret (iii) access token key and (iv)access token secret, in Auth.py. All of it is done after you sign up in Twitter as a developer and register your application on https://dev.twitter.com/.
@@ -35,6 +36,7 @@ this module does some data analysis based on the data collected from participant
 
 
 Libraries:
+
 twitter.py:
 A Python wrapper around the Twitter API. This module provides a pure Python interface for the Twitter API. Twitter exposes a web service API (http://dev.twitter.com/doc) and this module is intended to make it even easier for Python programmers to use. Further information about this module is available on https://code.google.com/p/python-twitter/.
 
