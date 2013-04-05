@@ -35,6 +35,10 @@ this module does some data analysis based on the data collected from participant
 Tweets_scrape.py:
 this module scrapes tweets from a particular participants or a group of participants and stores them on a local disk. It captures all information about a tweet, e.g. text, created_date, creator's ID, creator's screen name, whether or not it's retweeted, ... .
 
+UserInfo_scrape.py:
+this module scrapes profile information from a particular participants or a group of participants and stores them on a local disk. It can capture all information about a user profile, e.g. screen name, ID, #tweets, #re-tweets, #followers, #friends, etc. At the moment it only records #followers, #friends and #tweets and threw away the rest of info due to lack of space. However, with some minor changes in code, once can stor all the information available in a user's profile. To cope with twitter limit several authenticated users can be used at the same to time to collect the data. Also, parallel python library (pp) is used to speed up the scraping process.
+
+
 Libraries:
 
 twitter:
