@@ -6,7 +6,7 @@ import tempfile
 
 def scrape(partic_file='DataFiles/paricipants.txt'):
     participants=return_participants(file_path=partic_file)
-    my_screenname='data1_surgeon'
+    my_screenname='Auth_user'
     out_path='DataFiles/Tweets/'
     api=Auth.get_authentication(screen_name=my_screenname)
     max_twt_count=10
@@ -66,5 +66,5 @@ def return_participants(file_path="DataFiles/paricipants.txt"):
     return participants
 
 if __name__=='__main__':
-    tempfile.tempdir='/local/scratch/mh717'
+    tempfile.tempdir='/local/scratch/'
     scrape()
