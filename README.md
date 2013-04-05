@@ -14,7 +14,6 @@ To use authentication methods you need to set your (i) consumer key (ii) consume
 Invitations.py:
 This module samples a subset, say m (m is 250 by default), of followers of an authorized account, and send them an invitation message on Twitter to ask them to fill the questionnaire. The length of invitation message should no exceed the Twitter's limit which at the moment is 140 characters. This module samples the followers randomly. However, it also has the advantage to filter followers based on the date of following.
 
-
 Participants_Graph.py:
 This module regularly checks the graph associated with each participant, a twitter user who participated in our questionnaire, and record those links recently added/removed from the graph, e.g. it monitors new followers and new followees of the participant as well as former followers/followees who are not any longer in relationship with the participant. The output of this module can be used to represent the dynamic of the participants graph.
 
@@ -33,7 +32,8 @@ this module lets an authenticated user automatically stop following an individua
 stats.py:
 this module does some data analysis based on the data collected from participants. This module makes use of data collected by the questionnaire as well as data crawled in Twitter to compute various statistics and draw summary charts. This module uses matplotlib.py, will be introduced shortly, library for drawing plots.
 
-
+Tweets_scrape.py:
+this module scrapes tweets from a particular participants or a group of participants and stores them on a local disk. It captures all information about a tweet, e.g. text, created_date, creator's ID, creator's screen name, whether or not it's retweeted, ... .
 
 Libraries:
 
