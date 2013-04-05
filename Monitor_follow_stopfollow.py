@@ -10,7 +10,7 @@ import tempfile
 def fetch_data(screen_name=None,ids=[]):
     api=Auth.get_authentication(screen_name=screen_name)
     list_pairs={}
-    out_path='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/Users/pairs'#
+    out_path='/DataFiles/Users/pairs'#
     if os.path.exists(out_path):
         with open(out_path,'rb') as handle:
             list_pairs=cPickle.loads(handle.read())
@@ -75,10 +75,10 @@ def parll_crawl():
     with open(out_path,'wb') as handle:
         cPickle.dump(pairs,handle)
     
-tempfile.tempdir='/local/scratch/mh717'
-accounts=['baradarekhoob','madarekkhoob','khaharekhoob','DokhtarKhoob']#'pedare_khoob', 'Pesare_Khoub',
-out_path='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/Users/pairs'#
-in_path='/home/mh717/Research_Cambridge/SocialInfluence/Codes/DataFiles/Users/sampled_usersDB2'#sampled_usersDB1 test
+tempfile.tempdir='/local/scratch'
+accounts=['Auth_user']
+out_path='/DataFiles/Users/pairs'#
+in_path='/DataFiles/Users/sampled_usersDB2'
 print "##Begin#########"+str(datetime.datetime.now())+"##########"
 parll_crawl()
 print "###End########"+str(datetime.datetime.now())+"##########"
