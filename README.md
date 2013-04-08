@@ -9,7 +9,7 @@ Modules:
 
 Auth.py:
 Twitter supports a few authentication methods with a range of OAuth authentication styles. You are supposed to know which authentication method you need to use. To learn about Twitter authentication methods you should read on https://dev.twitter.com/docs/auth.  When choosing which authentication method to use you should understand the way that method will affect your users experience and the way you write your application. 
-To use authentication methods you need to set your (i) consumer key (ii) consumer secret (iii) access token key and (iv)access token secret, in Auth.py. All of it is done after you sign up in Twitter as a developer and register your application on https://dev.twitter.com/.
+To use authentication methods you need to set your (i) consumer key (ii) consumer secret (iii) access token key and (iv)access token secret, in Auth.py, All of which can be obtained once you sign up in Twitter as a developer and register your application on https://dev.twitter.com/.
 
 Following.py:
 this module lets an authenticated user automatically follows an individual or a group of individuals at the same time. A set of conditions, e.g. number of followers, number of tweets, number of followees etc, are also defined based on which individuals are followed. For instance, it can sample from thoes followers who started to follow a user after 20th Feb 2013.
